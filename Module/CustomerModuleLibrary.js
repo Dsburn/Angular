@@ -10,14 +10,14 @@ var forms_1 = require("@angular/forms");
 var router_1 = require("@angular/router");
 var CustomerComponent_1 = require("../Component/CustomerComponent");
 var core_1 = require("@angular/core");
-var common_module_1 = require("@angular/common/src/common_module");
 var CustomerRouting_1 = require("../Routing/CustomerRouting");
+var common_1 = require("@angular/common");
 var CustomerModuleLibrary = /** @class */ (function () {
     function CustomerModuleLibrary() {
     }
     CustomerModuleLibrary = __decorate([
         core_1.NgModule({
-            imports: [common_module_1.CommonModule, forms_1.FormsModule, router_1.RouterModule.forChild(CustomerRouting_1.CustomerRoutes), forms_1.ReactiveFormsModule],
+            imports: [common_1.CommonModule, forms_1.FormsModule, router_1.RouterModule.forChild(CustomerRouting_1.CustomerRoutes), forms_1.ReactiveFormsModule],
             declarations: [
                 CustomerComponent_1.CustomerComponent
             ],

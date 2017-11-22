@@ -9,15 +9,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var router_1 = require("@angular/router");
 var SupplierComponent_1 = require("../Component/SupplierComponent");
 var core_1 = require("@angular/core");
-var common_module_1 = require("@angular/common/src/common_module");
 var SupplierRouting_1 = require("../Routing/SupplierRouting");
 var forms_1 = require("@angular/forms");
+var common_1 = require("@angular/common");
 var SupplierModuleLibrary = /** @class */ (function () {
     function SupplierModuleLibrary() {
     }
     SupplierModuleLibrary = __decorate([
         core_1.NgModule({
-            imports: [common_module_1.CommonModule, router_1.RouterModule.forChild(SupplierRouting_1.SupplierRoutes), forms_1.FormsModule, forms_1.ReactiveFormsModule],
+            imports: [common_1.CommonModule, router_1.RouterModule.forChild(SupplierRouting_1.SupplierRoutes), forms_1.FormsModule, forms_1.ReactiveFormsModule],
             declarations: [
                 SupplierComponent_1.SupplierComponent
             ],

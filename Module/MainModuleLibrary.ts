@@ -7,6 +7,9 @@ import { MasterPageComponent } from "../Component/MasterPageComponent";
 import { ApplicationModule } from "@angular/core/src/application_module";
 import {RouterModule} from "@angular/router";
 import { ApplicationRoutes } from "../Routing/Routing";
+import { Router } from "@angular/router/src/router";
+
+
 
 @NgModule({
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(ApplicationRoutes),ReactiveFormsModule],
